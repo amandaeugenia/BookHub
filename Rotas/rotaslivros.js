@@ -2,7 +2,7 @@ const { Router } = require("express")
 const router = Router()
 const {getBooks, getIdBook, postBook, patchBooks, deleteBooks} =  require ('../Controladores/controladoreslivros')
 
-router.get('/', getBooks)
+router.get('/:', getBooks)
 
 router.get('/:id', getIdBook)
 

@@ -1,7 +1,7 @@
 const fs = require("fs")
 
 function getAllFavorites() {
-    return JSON.parse(fs.readFileSync("favorites.json"))
+        return JSON.parse( fs.readFileSync("favorites.json") )
 }
 
 function insertFavorites(id) {
